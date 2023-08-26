@@ -1,0 +1,72 @@
+/* home.css */
+
+#home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#feed-posts {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#user-friends {
+  width: 25%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#feed-posts h4,
+#user-friends h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#new-post-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#new-post-form input[type="submit"] {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#new-post-form input[type="submit"]:hover {
+  background-color: #e68a00;
+}
+
+#posts-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#user-friends p {
+  margin: 10px 0;
+}
+
+#user-friends a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#user-friends a:hover {
+  text-decoration: underline;
+}

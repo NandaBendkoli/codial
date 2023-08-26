@@ -1,0 +1,25 @@
+#layout-footer {
+  background-color: #474242;
+  text-align: center;
+  font-size: 14px;
+  color: #f7f3f3;
+  width: 100%; }
+
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  /* Display flex to enable alignment */
+  justify-content: center;
+  /* Center-align list items horizontally */ }
+
+.footer-nav li {
+  margin: 0 15px;
+  /* Adjust margin for spacing */ }
+
+.footer-nav a {
+  text-decoration: none;
+  color: #f7f0f0; }
+
+.footer-nav a:hover {
+  color: #ff9900; }

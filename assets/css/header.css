@@ -1,0 +1,39 @@
+/* header.css */
+#layout-header {
+  background-color: #393a3a;
+  color: #dfd3d3;
+  padding: 10px 0;
+  /* Adjust padding as needed */
+  width: 100%;
+  /* Full width of the screen */ }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  /* Optional: Set a maximum width for content */
+  margin: 0 auto;
+  /* Center align content within the screen */ }
+
+.mini-logo a {
+  text-decoration: none;
+  color: #faf9f9;
+  font-size: 24px; }
+
+.auth-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; }
+
+.auth-links li {
+  margin-left: 20px; }
+
+.auth-links a {
+  text-decoration: none;
+  color: #f8f8f8;
+  font-size: 16px; }
+
+.auth-links a:hover {
+  color: #ff9900; }

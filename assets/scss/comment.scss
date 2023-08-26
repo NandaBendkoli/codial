@@ -1,0 +1,32 @@
+/* comments.css */
+.comment-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(248, 222, 242, 0.8);
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .delete-comment-button {
+    color: red;
+    text-decoration: none;
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .delete-comment-button:hover {
+    color: darkred;
+  }
+  
+  .comment-content {
+    margin: 0;
+  }
+  
+  .comment-user {
+    color: gray;
+  }
+  
